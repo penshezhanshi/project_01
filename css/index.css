@@ -51,7 +51,7 @@ h1 {
     line-height: 41px;   
     /* border-bottom: 1px solid #00a4ff; */
     font-size: 18px;
-    color: #050505;
+    color: black;
 }
 .nav li a:hover {
     border-bottom: 1px solid #00a4ff;
