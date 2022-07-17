@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* 內减模式 */
+    box-sizing: border-box;
+}
+body {
+    background-color: #f3f5f7;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.clearfix::before,.clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.wapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+ .header  {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 41px;
+    background-color: pink;
+}
+h1 {
+    float: left;
+}
+
+.nav {
+    float: left;
+    margin-left: 70px;
+    height: 41px;
+    /* background-color: green; */
+}
+.nav li {
+    float: left;
+    margin-right: 30px;
+}
+.nav li a {
+    display: block;
+    height: 41px;
+    padding: 0 9px;
+    line-height: 41px;   
+    /* border-bottom: 1px solid #00a4ff; */
+    font-size: 18px;
+    color: #050505;
+}
+.nav li a:hover {
+    border-bottom: 1px solid #00a4ff;
+}
+.search {
+    float: left;
+    margin-left: 59px;
+    width: 412px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+}
+.search input {
+    float: left;
+    padding-left: 20px;
+    width: 360px;
+    height: 38px;
+    border: none;
+} 
+/* .search {
+    float: left;
+    margin-left:  59px;
+    width: 412px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+}
+.search input {
+    float: left;
+    padding-left: 20px;
+    width: 360px;
+    height: 38px;
+    border: none;
+} */
